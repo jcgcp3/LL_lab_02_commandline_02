@@ -92,3 +92,25 @@ e. Determine which folder in my-stuff was created most recently by using ls.  (t
 f. Remove that folder.
 g. Show all of the commands that you used to complete the above exercise.  (for example, how did you determine which folder in my-stuff was the most recent?).  Use the command: history ... to help you remember what you did!  Paste the commands below.
 ----------
+Last login: Fri Sep 14 14:02:38 on console
+ent-v314-005:~ student$ mkdir on...
+ent-v314-005:~ student$ ls
+Adlm			Movies			humvn
+Adobe			Music			ipe.properties
+Applications		New Unity Project	isus
+BALANS.png.gz		Pictures		ls
+BALANS.tar		Public			mtec1002
+Desktop			QLData			on...
+Documents		Things			pymel.log
+Downloads		drills.py		xgen
+Library			foo
+MPLABXProjects		food
+ent-v314-005:~ student$ my-stuff
+-bash: my-stuff: command not found
+ent-v314-005:~ student$ cd /users/student/desktop
+ent-v314-005:desktop student$ cd
+ent-v314-005:~ student$ cd /users/student/desktop/my-stuff
+-bash: cd: /users/student/desktop/my-stuff: No such file or directory
+ent-v314-005:~ student$ 
+
+I DIDNT KNOW HOW TO DO THIS
