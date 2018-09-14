@@ -18,7 +18,7 @@ $ echo hello
 
 Copy and paste the output below.
 ----------
-
+hello
 
 
 ==========
@@ -28,7 +28,7 @@ $ echo hello there
 
 Copy and paste the output below.
 ----------
-
+hello there
 
 
 ==========
@@ -38,7 +38,7 @@ $ echo good mornin'
 
 Copy and paste the output below.
 ----------
-
+> 
 
 
 ==========
@@ -57,7 +57,7 @@ $ echo "good mornin'"
 Copy and paste the output below.
 ----------
 
-
+good mornin'
 
 ==========
 6. There are some other symbols that have special meanings if you don't quote them.  For example, > brings up a different prompt.  Try *.
@@ -66,6 +66,8 @@ $ echo *
 
 What happens?
 ----------
+Adlm Adobe Applications BALANS.png.gz BALANS.tar Desktop Documents Downloads Library MPLABXProjects Movies Music New Unity Project Pictures Public QLData Things drills.py foo food humvn ipe.properties isus ls mtec1002 on... pymel.log xgen
+ent-v314-005:~ student$ 
 
 
 
@@ -74,7 +76,7 @@ What happens?
 
 Write the command that you used below:
 ----------
-
+clear
 
 
 ==========
@@ -83,11 +85,23 @@ We're going to practice downloading files from a web site.  We'll use this pract
 ==========
 8. Now let's try downloading a file from a web site.  Type in the URL *exactly* as is: google.com.
 
-$ curl google.com
+$ <HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="http://www.google.com/">here</A>.
+</BODY></HTML>
+ent-v314-005:~ student$ 
 
 Copy and paste the output below.
 ----------
-
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="http://www.google.com/">here</A>.
+</BODY></HTML>
+ent-v314-005:~ student$ 
 
 
 ==========
@@ -97,6 +111,8 @@ $ curl www.google.com
 
 Copy and paste the output below, but not the whole thing!  Just copy up to the part that has the title tags (<title>......</title>).
 ----------
+gbv" type="hidden" value="1"><script nonce="ebdwf9yzFCej2xkHGq1Efg==">(function(){var a,b="1";if(document&&document.getElementById)if("undefined"!=typeof XMLHttpRequest)b="2";else if("undefined"!=typeof ActiveXObject){var c,d,e=["MSXML2.XMLHTTP.6.0","MSXML2.XMLHTTP.3.0","MSXML2.XMLHTTP","Microsoft.XMLHTTP"];for(c=0;d=e[c++];)try{new ActiveXObject(d),b="2"}catch(h){}}a=b;if("2"==a&&-1==location.search.indexOf("&gbv=2")){var f=google.gbvu,g=document.getElementById("gbv");g&&(g.value=a);f&&window.setTimeout(function(){location.href=f},0)};}).call(this);</script></form><div id="gac_scont"></div><div style="font-size:83%;min-height:3.5em"><br></div><span id="footer"><div style="font-size:10pt"><div style="margin:19px auto;text-align:center" id="fll"><a href="/intl/en/ads/">Advertising?Programs</a><a href="/services/">Business Solutions</a><a href="https://plus.google.com/116899029375914044550" rel="publisher">+Google</a><a href="/intl/en/about.html">About Google</a></div></div><p style="color:#767676;font-size:8pt">&copy; 2018 - <a href="/intl/en/policies/privacy/">Privacy</a> - <a href="/intl/en/policies/terms/">Terms</a></p></span></center><script nonce="ebdwf9yzFCej2xkHGq1Efg==">(function(){window.google.cdo={height:0,width:0};(function(){var a=window.innerWidth,b=window.innerHeight;if(!a||!b){var c=window.document,d="CSS1Compat"==c.compatMode?c.documentElement:c.body;a=d.clientWidth;b=d.clientHeight}a&&b&&(a!=google.cdo.width||b!=google.cdo.height)&&google.log("","","/client_204?&atyp=i&biw="+a+"&bih="+b+"&ei="+google.kEI);}).call(this);})();</script><div id="xjsd"></div><div id="xjsi"><script nonce="ebdwf9yzFCej2xkHGq1Efg==">(function(){function c(b){window.setTimeout(function(){var a=document.createElement("script");a.src=b;google.timers&&google.timers.load.t&&google.tick&&google.tick("load",{gen204:"xjsls",clearcut:31});document.getElementById("xjsd").appendChild(a)},0)}google.dljp=function(b,a){google.xjsu=b;c(a)};google.dlj=c;}).call(this);if(!google.xjs){window._=window._||{};window._DumpException=window._._DumpException=function(e){throw e};window._F_installCss=window._._F_installCss=function(c){};google.dljp('/xjs/_/js/k\x3dxjs.hp.en_US.plDBwxBv7VI.O/m\x3dsb_he,d/am\x3dosDY/rt\x3dj/d\x3d1/rs\x3dACT90oGNlh06vy3E4ii-xnH5mBBLbb8q9A','/xjs/_/js/k\x3dxjs.hp.en_US.plDBwxBv7VI.O/m\x3dsb_he,d/am\x3dosDY/rt\x3dj/d\x3d1/rs\x3dACT90oGNlh06vy3E4ii-xnH5mBBLbb8q9A');google.xjs=1;}google.pmc={"sb_he":{"agen":false,"cgen":false,"client":"heirloom-hp","dh":true,"dhqt":true,"ds":"","ffql":"en","fl":true,"host":"google.com","isbh":28,"jsonp":true,"msgs":{"cibl":"Clear Search","dym":"Did you mean:","lcky":"I\u0026#39;m Feeling Lucky","lml":"Learn more","oskt":"Input tools","psrc":"This search was removed from your \u003Ca href=\"/history\"\u003EWeb History\u003C/a\u003E","psrl":"Remove","sbit":"Search by image","srch":"Google Search"},"ovr":{},"pq":"","refpd":true,"rfs":[],"sbpl":24,"sbpr":24,"scd":10,"sce":5,"stok":"t-YmD2CpRVb8Wmb7cbFQ2mxOqeQ","uhde":false},"d":{},"ZI/YVQ":{},"Qnk92g":{},"U5B21g":{},"DPBNMg":{},"YFCs/g":{}};google.x(null,function(){});(function(){var r=[];google.plm(r);})();(function(){var m=[]
+;google.jsc && google.jsc.m(m);})();</script></div></body></html>ent-v314-005:~ student$ 
 
 
 
@@ -105,7 +121,7 @@ Copy and paste the output below, but not the whole thing!  Just copy up to the p
 
 Write the command you used below.  Also copy and paste the output below.
 ----------
-
+curl /o
 
 
 ==========
@@ -121,7 +137,7 @@ Write the command you used to determine your directory.  Also, copy and paste th
 
 Write the command that you used to change to your home directory.  If you were already in your home directory, write the command that you *would* have used to change to it!
 ----------
-
+cd users/
 
 
 ==========
@@ -137,6 +153,9 @@ Use ls to verify that it downloaded.
 
 Write down the command that you used to download the file below.  Additionally, write the output of the command below.
 ----------
+ent-v314-005:~ student$ curl-o http://entertainmenttechnology.github.io/Wilson-MTEC1003/labs/02/mtec1002-lab-02.zip
+-bash: curl-o: command not found
+ent-v314-005:~ student$ 
 
 
 
@@ -145,6 +164,9 @@ Write down the command that you used to download the file below.  Additionally, 
 
 Write down the command that you used to uncompress the file.
 ----------
+ent-v314-005:~ student$ curl-o http://entertainmenttechnology.github.io/Wilson-MTEC1003/labs/02/mtec1002-lab-02.zip
+-bash: curl-o: command not found
+ent-v314-005:~ student$ 
 
 
 
@@ -164,6 +186,18 @@ We're going to mess around with archiving and compressing files.  We'll make a d
 
 Copy and paste the output below.
 ----------
+ent-v314-005:~ student$ ls
+Adlm			Movies			humvn
+Adobe			Music			ipe.properties
+Applications		New Unity Project	isus
+BALANS.png.gz		Pictures		ls
+BALANS.tar		Public			mtec1002
+Desktop			QLData			on...
+Documents		Things			pymel.log
+Downloads		drills.py		stuff
+Library			foo			xgen
+MPLABXProjects		food
+ent-v314-005:~ student$ 
 
 
 
@@ -176,7 +210,7 @@ List the files in the directory you're currently in (which should be stuff).
 
 Copy and paste the output below.
 ----------
-
+hello.txt
 
 
 ==========
@@ -188,6 +222,8 @@ List the files in the directory you're currently in (which should be home).
 
 Copy and paste the output below.
 ----------
+Shared		entadmin	professor	student
+ent-v314-005:users student$ 
 
 
 
@@ -198,7 +234,8 @@ $ tar -cvf stuff.tar stuff
 
 Copy and paste the output below.
 ----------
-
+a stuff
+a stuff/hello.txt
 
 
 ==========
@@ -206,6 +243,17 @@ Copy and paste the output below.
 
 Copy and paste the output below. (It should contain stuff.tar)
 ----------
+Adlm			Movies			humvn
+Adobe			Music			ipe.properties
+Applications		New Unity Project	isus
+BALANS.png.gz		Pictures		ls
+BALANS.tar		Public			mtec1002
+Desktop			QLData			on...
+Documents		Things			pymel.log
+Downloads		drills.py		stuff
+Library			foo			stuff.tar
+MPLABXProjects		food			xgen
+ent-v314-005:~ student$ 
 
 
 
@@ -216,6 +264,17 @@ gzip stuff.tar
 
 List your files again.... you should have a new file with a .gz extension.  Copy and paste the output of your this below.
 ----------
+Adlm			Movies			humvn
+Adobe			Music			ipe.properties
+Applications		New Unity Project	isus
+BALANS.png.gz		Pictures		ls
+BALANS.tar		Public			mtec1002
+Desktop			QLData			on...
+Documents		Things			pymel.log
+Downloads		drills.py		stuff
+Library			foo			stuff.tar.gz
+MPLABXProjects		food			xgen
+ent-v314-005:~ student$ 
 
 
 
@@ -230,7 +289,8 @@ Change your directory to mtec1002-lab-02.
 
 List the files.  Copy and paste the output below (stuff.tar.gz should be there).
 ----------
-
+ent-v314-005:~ student$ cd mtec1002-lab-02
+-bash: cd: mtec1002-lab-02: Not a directory
 
 ==========
 23. You should be in the lab directory.  Let's uncompress the file.
@@ -240,7 +300,8 @@ $ tar -xvf stuff.tar.gz
 List the files.  Copy and paste the output below (the folder, stuff, should be there).
 ----------
 
-
+ent-v314-005:~ student$ cd mtec1002-lab-02
+-bash: cd: mtec1002-lab-02: Not a directory
 
 
 
